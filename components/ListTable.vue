@@ -44,7 +44,7 @@
             icon
             @click="edit(item)"
           >
-            <v-icon>mdi-pencil</v-icon>
+            <img class="mx-1" src="~/assets/ic-edit.svg" alt="add" width="16">
           </v-btn>
           <span slot="text">
             Editar
@@ -57,7 +57,7 @@
             icon
             @click="openDeleteDialog(item)"
           >
-            <v-icon>mdi-delete</v-icon>
+            <img class="mx-1" src="~/assets/ic-delete.svg" alt="add" width="16">
           </v-btn>
           <span slot="text">
             Remover

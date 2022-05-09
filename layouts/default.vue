@@ -66,7 +66,7 @@ export default {
 
 <style scoped>
 .theme--light.v-application, .v-app-bar {
-  background-color: var(--v-background-base, '#f8f9fd') !important;
+  background-color: #f8f9fd !important;
 }
 .v-text-field__slot .v-label {
   color: '#9198af';
