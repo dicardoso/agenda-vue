@@ -4,7 +4,7 @@
       <v-card rounded="lg">
         <v-card-title>
           <v-row class="flex-nowrap d-flex justify-space-between">
-            <span class="asus-popup-title body-1 my-3">
+            <span class="popup-title body-1 my-3">
               {{ dialogText }}
             </span>
           </v-row>
