@@ -1,0 +1,27 @@
+.v-data-table.elevation-0.theme--light > div > table > tbody > tr:hover {
+  background-color: #fff3f2 !important;
+}
+
+@keyframes highlight {
+  5% {background-color: #fff3f2;}
+  80% {background-color: #fff3f2;}
+  100% {background-color: #ffffff;}
+}
+
+.v-data-table.elevation-0.theme--light > div > table > tbody > tr {
+  animation: highlight 10s;
+}
+
+.theme--light.v-application, .v-app-bar {
+  background-color: var(--v-background-base, '#f8f9fd') !important;
+}
+.v-text-field__slot .v-label {
+  color: '#9198af';
+  font-size: 16px;
+}
+.v-text-field {
+  box-shadow: 0px;
+}
+.add-contact {
+  color: #fa7268;
+}
