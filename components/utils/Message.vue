@@ -51,7 +51,7 @@ export default {
   mounted() {
     this.$nuxt.$on(
       'active-message',
-      (body, type = 'info', dark = true, timeout = 6000) => {
+      (body, type = 'info', dark = true, timeout = 2000) => {
         this.snackbar = true
         this.snackbarProperty.body = body
         this.snackbarProperty.type = type

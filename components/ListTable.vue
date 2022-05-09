@@ -129,11 +129,6 @@ export default {
       ]
     }
   },
-  mounted() {
-    this.$nuxt.$on('searching', (term) => {
-      console.log(term)
-    })
-  },
   computed: {
     ...mapState('contacts', ['list', 'searchTerm'])
   },
